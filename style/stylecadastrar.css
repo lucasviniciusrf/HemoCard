@@ -1,16 +1,18 @@
-
-html, body {
-    min-height: 100%; 
-    overflow-y: auto; 
-    overflow-x: hidden; 
+html,
+body {
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .exemplo-rolagem {
-    height: 200px; /* Ou max-height */
-    overflow-y: scroll; /* Ou auto */
+    height: 200px;
+    /* Ou max-height */
+    overflow-y: scroll;
+    /* Ou auto */
 }
 
-.centralizar{
+.centralizar {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -20,7 +22,7 @@ html, body {
     color: rgb(40, 40, 40);
 }
 
-h1{
+h1 {
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -31,12 +33,12 @@ h1{
     unicode-bidi: isolate;
 }
 
-.alinhado{
+.alinhado {
     display: block;
     width: 100%;
 }
 
-.espaçosimples{
+.espaçosimples {
     margin-top: 10px;
 }
 
@@ -48,7 +50,8 @@ body {
 
 /* Fundo preto e texto claro */
 .footer {
-    background-color: #000000; /* Preto suave */
+    background-color: #000000;
+    /* Preto suave */
     color: white;
     padding: 40px 0;
 }
@@ -64,7 +67,8 @@ body {
 
 /* Títulos */
 .footer h3 {
-    color: #ec0000; /* Verde parecido com o da imagem */
+    color: #ec0000;
+    /* Verde parecido com o da imagem */
 }
 
 /* Lista */
