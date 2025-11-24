@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+html, body {
+    min-height: 100%; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+>>>>>>> ebed1d2f80a0a760c28d54225faf36cb4571a1e9
 body {
     background-image: url('/assets/Sombras.png');
     background-size: cover;       
@@ -114,3 +122,57 @@ body {
     margin: -60px;
     display: block;
 }
+<<<<<<< HEAD
+=======
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo preto e texto claro */
+.footer {
+    background-color: #000000; /* Preto suave */
+    color: white;
+    padding: 40px 0;
+}
+
+/* Conteúdo alinhado */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Títulos */
+.footer h3 {
+    color: #ec0000; /* Verde parecido com o da imagem */
+}
+
+/* Lista */
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+/* Texto final */
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+>>>>>>> ebed1d2f80a0a760c28d54225faf36cb4571a1e9

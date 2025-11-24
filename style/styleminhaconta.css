@@ -1,0 +1,107 @@
+html, body {
+    min-height: 100%; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+h1{
+      display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+.centralizar{
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+    color: rgb(40, 40, 40);
+}
+.form-container {
+    width: 350px;       /* tamanho do formulário */
+    margin: 0 auto;     /* centraliza horizontalmente */
+    margin-top: 40px;   /* espaço superior */
+    color: rgb(40, 40, 40);
+}
+
+.form-container .form-control {
+    width: 100%;   
+    color: rgb(40, 40, 40);     /* garante que o input ocupe a largura do container */
+}
+.endireitar{
+  width: 350px
+}
+.senhaesquecida{
+  margin-top: 5px;
+  display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 12px;
+}
+.espaçosimples{
+  margin-top: 10px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer {
+    background-color: #000000; /* Preto suave */
+    color: white;
+    padding: 40px 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer h3 {
+    color: #ec0000; /* Verde parecido com o da imagem */
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
