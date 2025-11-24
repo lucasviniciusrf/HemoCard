@@ -1,7 +1,7 @@
 html,
 body {
     min-height: 100%;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -110,4 +110,8 @@ body {
     margin-top: 30px;
     color: #ffffff;
     font-size: 14px;
+}
+
+.my-container {
+    height: calc(100vh - 259px);
 }
