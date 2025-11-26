@@ -120,3 +120,6 @@ body {
     --bs-btn-hover-bg: #868686;
     --bs-btn-border-color: #868686;
 }
+.my-container {
+    height: calc(50% - 50%);
+}
