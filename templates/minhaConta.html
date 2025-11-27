@@ -46,60 +46,64 @@
     <h1 class="centralizar">Bem-vindo</h1>
     <div class="centralizar">Você pode entrar com seu e-mail ou CPF</div>
 
-    <div class="d-flex mt-5 justify-content-around my-container gap-5">
 
-        <div class="w-50 d-flex align-items-center justify-content-center">
-            <div style="width: 350px; height: 100%;">
+    <div class="d-flex justify-content-center ">
+        <div class="w-50 d-flex align-items-center justify-content-around ">
+            <div class="w-50 justify-content-center formularioTamanho mb-5 " style="height: 300px;">
+
                 <div class="mb-3">
                     <label class="form-label">Email ou CPF</label>
-                    <input type="email" class="form-control">
+                    <input type="email" placeholder="Email ou CPF" class="form-control">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Senha</label>
-                    <input type="password" class="form-control">
+                    <input type="password" placeholder="Senha" class="form-control">
                     <a href="/templates/TrocarSenha.html" class="senhaesquecida">Trocar Senha</a>
                 </div>
-
-                <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                 <a href="/templates/doeVida.html" class="btn btn-primary w-100 ">Entrar</a>
                 <a href="/templates/cadastrar.html" class="btn btn-primary w-100 espaçosimples houverbranco">Cadastrar</a>
             </div>
         </div>
 
-        <div class="w-50">
-            <img src="/assets/Mascote HemoCard.png" class="w-100" alt="Mascote">
+        <div class="d-flex align-items-baseline centralizar  ">
+            <img src="/assets/Mascote HemoCard.png" class="img-morcego mb-5" alt="Mascote">
         </div>
-      
+      </div>
     </div>
 
-    
-    <footer class="footer">
-        <div class="container d-flex justify-content-between">
-
-            <div class="coluna">
-                <h3>HemoCard</h3>
-                <ul>Email: hemocard@central.com.org</ul>
-            </div>
-
-            <div class="coluna">
-                <h3>Dúvidas</h3>
-                <ul>Central De Atendimento: 4002-8922</ul>
-            </div>
-
-            <div class="coluna">
-                <h3>Fale conosco</h3>
-                <p>De Segunda a Sexta<br>Das 9:30 às 17:00</p>
-            </div>
-
-            <div class="coluna">
-                <h3>Baixe nosso App</h3>
-                <img src="/assets/GooglePng.png" width="50">
-            </div>
-
+<footer class="footer ">
+    <div class="container">
+        <div class="coluna">
+            <h3>HemoCard</h3>
+            <ul>
+                Email: hemocard@central.com.org
+            </ul>
         </div>
 
-        <p class="copy">© 2025 – Todos direitos reservados ao HemoCard</p>
-    </footer>
+        <div class="coluna">
+            <h3>Dúvidas</h3>
+            <ul>
+                Central De Atendimento:
+                4002-8922
+            </ul>
+        </div>
+
+        <div class="coluna">
+            <h3>Fale conosco</h3>
+            <p>De Segunda a Sexta<br>Das 9:30 às 17:00</p>
+        </div>
+
+        <div class="coluna">
+            <h3>Baixe nosso App</h3>
+            <img src="/assets/GooglePng.png" width="50">
+        </div>
+    </div>
+
+    <p class="copy">© 2025 – Todos direitos reservados ao HemoCard</p>
+</footer>
 
 </body>
 </html>
+
+class="btn btn-primary w-100">

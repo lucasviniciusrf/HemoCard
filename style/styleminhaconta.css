@@ -1,9 +1,10 @@
 html,
 body {
     min-height: 100%;
-    overflow-y: hidden;
+    overflow-y: auto;
     overflow-x: hidden;
 }
+
 
 h1 {
     display: block;
@@ -58,6 +59,12 @@ h1 {
 
 .espaçosimples {
     margin-top: 10px;
+}
+
+.img-morcego {
+    width: 550px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 
@@ -123,3 +130,8 @@ body {
 .my-container {
     height: calc(50% - 50%);
 }
+.footerTamanho{
+    height: 100%;
+}
+
+
