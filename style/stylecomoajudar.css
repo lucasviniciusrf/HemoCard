@@ -1,0 +1,193 @@
+
+body {
+    background: #fff;
+    color: rgb(78, 73, 109);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, li, label {
+    color: rgb(78, 73, 109);
+}
+
+html,
+body {
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-image: url('/assets/Sombras.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#hemocard {
+    width: 400px !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 70px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(78, 73, 109) !important;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+
+
+.Styleimplement {
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+    /* estilos que você já tinha */
+    width: 80%;
+    height: 80px !important;
+    margin-top: 60px;
+    justify-content: center !important;
+    left: 150px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+
+    background-color: #e1e1e1 !important;
+}
+
+.box-DoeVida {
+    border-top-left-radius: 70px !important;
+    border-bottom-left-radius: 70px !important;
+    border-top-right-radius: 70px !important;
+    border-bottom-right-radius: 70px !important;
+    background-color: rgb(78, 73, 109);
+    color: white !important;
+    margin: 0;
+
+}
+
+.btn-outline-success {
+    color: white !important;
+    --bs-btn-color: #e1e1e1;
+    --bs-btn-border-color: ##e1e1e1;
+    width: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.btn-outline-success:hover {
+    border-top-left-radius: 70px !important;
+    border-bottom-left-radius: 70px !important;
+    border-top-right-radius: 70px !important;
+    border-bottom-right-radius: 70px !important;
+    background-color: rgb(81, 68, 162);
+    margin: 0;
+
+}
+
+.mb-lg-0 a {
+    color: rgb(78, 73, 109) !important;
+    font-size: 23px;
+    padding: 20px !important;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115%;
+    padding: 40px 100px;
+    position: relative;
+    left: 100px !important;
+}
+
+.hero-texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-texto h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: rgb(78, 73, 109);
+
+}
+
+.hero-texto p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(78, 73, 109);
+
+}
+
+.hero-mascote img {
+    width: 1200px;
+    height: 700px;
+    margin: -60px;
+    display: block;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo preto e texto claro */
+.footer {
+    background-color: #000000;
+    /* Preto suave */
+    color: white;
+    padding: 40px 0;
+}
+
+/* Conteúdo alinhado */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Títulos */
+.footer h3 {
+    color: #ec0000;
+    /* Verde parecido com o da imagem */
+}
+
+/* Lista */
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+/* Texto final */
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
