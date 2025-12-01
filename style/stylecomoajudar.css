@@ -1,3 +1,16 @@
+
+body {
+    background: #fff;
+    color: rgb(78, 73, 109);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, li, label {
+    color: rgb(78, 73, 109);
+}
+
 html,
 body {
     min-height: 100%;

@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hemocard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">>
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/styleminhaconta.css" </head>
-
+    <link rel="stylesheet" href="/style/styleminhaconta.css">
+</head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary Styleimplement">
+
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary Styleimplement">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img id="hemocard" src="/assets/Logo-Head-HemoCard.png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img id="hemocard" src="/assets/Logo-Head-HemoCard.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
@@ -35,7 +37,10 @@
                         <a class="nav-link" href="comoFunciona.html">Como funciona</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="minhaConta.html">Minha conta</a>
+                        <a class="nav-link" href="minhaConta.html">Login </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="perfil.html">Perfil</a>
                     </li>
 
                 </ul>
@@ -45,50 +50,39 @@
                     </a>
                 </div>
 
-
             </div>
     </nav>
 
-</body>
-
-</html>
-
-</div>
-</nav>
-
-<h1 class="centralizar">Bem-vindo</h1>
-<div class="centralizar">Você pode entrar com seu e-mail ou CPF</div>
-
-<div class="d-flex mt-5 justify-content-around my-container gap-5">
+    <h1 class="centralizar">Bem-vindo</h1>
+    <div class="centralizar">Você pode entrar com seu e-mail ou CPF</div>
 
 
-    <div class="w-50 d-flex align-items-center justify-content-center">
-        <div style="width: 350px; height: 100%;">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email ou CPF</label>
-                <input type="email" class="form-control" id="exampleInputEmail1">
+    <div class="d-flex justify-content-center ">
+        <div class="w-50 d-flex align-items-center justify-content-around ">
+            <div class="w-50 justify-content-center formularioTamanho mb-5 " style="height: 300px;">
+
+                <div class="mb-3">
+                    <label class="form-label">Email ou CPF</label>
+                    <input type="email" placeholder="Email ou CPF" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Senha</label>
+                    <input type="password" placeholder="Senha" class="form-control">
+                    <a href="/templates/TrocarSenha.html" class="senhaesquecida">Trocar Senha</a>
+                </div>
+                 <a href="/templates/doeVida.html" class="btn btn-primary w-100 ">Entrar</a>
+                <a href="/templates/cadastrar.html" class="btn btn-primary w-100 espaçosimples houverbranco">Cadastrar</a>
             </div>
-
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-                <div class="senhaesquecida">Esqueci minha senha</div>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
-            <a href="/templates/cadastrar.html" class="btn btn-primary w-100 espaçosimples houverbranco">Cadastrar</a>
-
         </div>
+
+        <div class="d-flex align-items-baseline centralizar  ">
+            <img src="/assets/Mascote HemoCard.png" class="img-morcego mb-5" alt="Mascote">
+        </div>
+      </div>
     </div>
 
-    <div class="w-50">
-        <img src="/assets/Mascote HemoCard.png" class="w-100" alt="Mascote">
-    </div>
-
-
-</div>
-
-</body>
-<footer class="footer">
+<footer class="footer ">
     <div class="container">
         <div class="coluna">
             <h3>HemoCard</h3>
@@ -119,12 +113,5 @@
     <p class="copy">© 2025 – Todos direitos reservados ao HemoCard</p>
 </footer>
 
-</div>
-
-
-
-
-
-
-
+</body>
 </html>

@@ -11,6 +11,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/styleperfil.css">
 
 
 </head>
@@ -49,27 +50,60 @@
                         <b>Doe vida</b>
                     </a>
                 </div>
-
             </div>
     </nav>
-    <div class="hero">
-        <div class="hero-texto">
 
-            <h1>Já pensou em salvar uma vida hoje ?</h1>
-            <br><br>
 
-            <p>
-                No <b>Hemocard</b>, você escolhe para quem doar sangue e acompanha o impacto da sua doação em tempo
-                real.
-                <b>Conectamos doadores</b> a pacientes e campanhas da sua região de forma <b>simples, segura e
-                    humana</b>. <br> <br>
-                <b>Doe</b> sangue. <b>Escolha</b> o destino. <b>Veja</b> a vida acontecer.
-            </p>
+    <div class="card shadow-lg p-4 d-flex flex-row align-items-start gap-4 mt-5 my-5">
+        <div class="text-center" style="min-width: 200px;">
+            <img src="/assets/FotoPerfil.jpg" class="rounded-circle border border-3 img-perfil" alt="Foto de perfil">
+
+            <h2 class="fw-bold mt-3">Ycaro Silva</h2>
+            <p class="text-muted">Doador ativo | Tipo sanguíneo: <b>O+</b></p>
+
+            <button class="btn btn-primary w-100 mt-2">Editar foto</button>
         </div>
 
-        <div class="hero-mascote ">
-            <img src="/assets/Mascote HemoCard.png" class="mb-3 mt-3" alt="Mascote Hemocard">
+        <div class="flex-fill">
+
+            <h4 class="mb-3">Informações Pessoais</h4>
+
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p><strong>Email:</strong> ycaro@example.com</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Telefone:</strong> (83) 98888-0000</p>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <p><strong>CPF:</strong> 000.000.000-00</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Data de nascimento:</strong> 12/03/1999</p>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <h4 class="mb-3">Últimas doações</h4>
+            <ul>
+                <li>05/09/2025 - Hemocentro de Campina Grande</li>
+                <li>15/06/2025 - Hemocentro de João Pessoa</li>
+            </ul>
+
+            <hr class="my-4">
+
+            <div class="d-flex gap-3">
+                <a href="#" class="btn btn-danger btn-lg w-25">Excluir Conta</a>
+                <a href="#" class="btn btn-success btn-lg w-25">Editar Perfil</a>
+                <a href="doeVida.html" class="btn btn-secondary btn-lg w-25">Doe Vida!</a>
+            </div>
+
         </div>
+
     </div>
 
     <footer class="footer">

@@ -1,9 +1,10 @@
 html,
 body {
     min-height: 100%;
-    overflow-y: hidden;
+    overflow-y: auto;
     overflow-x: hidden;
 }
+
 
 h1 {
     display: block;
@@ -58,6 +59,12 @@ h1 {
 
 .espaçosimples {
     margin-top: 10px;
+}
+
+.img-morcego {
+    width: 550px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 
@@ -120,3 +127,11 @@ body {
     --bs-btn-hover-bg: #868686;
     --bs-btn-border-color: #868686;
 }
+.my-container {
+    height: calc(50% - 50%);
+}
+.footerTamanho{
+    height: 100%;
+}
+
+
