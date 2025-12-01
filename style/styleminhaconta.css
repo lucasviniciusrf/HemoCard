@@ -30,18 +30,15 @@ h1 {
 
 .form-container {
     width: 350px;
-    /* tamanho do formulário */
     margin: 0 auto;
-    /* centraliza horizontalmente */
     margin-top: 40px;
-    /* espaço superior */
+    
     color: rgb(40, 40, 40);
 }
 
 .form-container .form-control {
     width: 100%;
     color: rgb(40, 40, 40);
-    /* garante que o input ocupe a largura do container */
 }
 
 .endireitar {
@@ -94,7 +91,7 @@ body {
 
 .footer h3 {
     color: #ec0000;
-    /* Verde parecido com o da imagem */
+    
 }
 
 .footer ul {

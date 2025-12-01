@@ -51,7 +51,7 @@ body {
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
 
-    /* estilos que você já tinha */
+    
     width: 80%;
     height: 80px !important;
     margin-top: 60px;
@@ -145,15 +145,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Fundo preto e texto claro */
+
 .footer {
     background-color: #000000;
-    /* Preto suave */
+    
     color: white;
     padding: 40px 0;
 }
 
-/* Conteúdo alinhado */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -162,13 +161,12 @@ body {
     flex-wrap: wrap;
 }
 
-/* Títulos */
 .footer h3 {
     color: #ec0000;
-    /* Verde parecido com o da imagem */
+    
 }
 
-/* Lista */
+
 .footer ul {
     list-style: none;
     padding: 0;
@@ -184,7 +182,7 @@ body {
     color: white;
 }
 
-/* Texto final */
+
 .copy {
     text-align: center;
     margin-top: 30px;
