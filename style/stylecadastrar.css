@@ -1,0 +1,96 @@
+html,
+body {
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.exemplo-rolagem {
+    height: 200px;
+    /* Ou max-height */
+    overflow-y: scroll;
+    /* Ou auto */
+}
+
+.centralizar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+    color: rgb(40, 40, 40);
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.alinhado {
+    display: block;
+    width: 100%;
+}
+
+.espaçosimples {
+    margin-top: 10px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo preto e texto claro */
+.footer {
+    background-color: #000000;
+    /* Preto suave */
+    color: white;
+    padding: 40px 0;
+}
+
+/* Conteúdo alinhado */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Títulos */
+.footer h3 {
+    color: #ec0000;
+    /* Verde parecido com o da imagem */
+}
+
+/* Lista */
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: white;
+}
+
+/* Texto final */
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
