@@ -12,6 +12,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/styleperfil.css">
+    <script src="/js/hemocard.js" defer></script>
 
 
 </head>
@@ -59,49 +60,67 @@
             <p class="text-muted">Doador ativo | Tipo sanguíneo: <b>O+</b></p>
 
             <button class="btn btn-primary w-100 mt-2">Editar foto</button>
+            <button class="btn btn-primary w-100 mt-2 ColorAlteracao" id="ColorAlteracao" onclick="salvarSucesso()">Salvar alteração</button>
         </div>
 
         <div class="flex-fill">
 
-            <h4 class="mb-3">Informações Pessoais</h4>
+    <h4 class="mb-3">Informações Pessoais</h4>
 
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <p><strong>Email:</strong> ycaro@example.com</p>
-                </div>
-                <div class="col-md-6">
-                    <p><strong>Telefone:</strong> (83) 98888-0000</p>
-                </div>
-            </div>
+     
 
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <p><strong>CPF:</strong> 000.000.000-00</p>
-                </div>
-                <div class="col-md-6">
-                    <p><strong>Data de nascimento:</strong> 12/03/1999</p>
-                </div>
-            </div>
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <label class="form-label"><strong>Email:</strong></label>
+            <input id="email" type="email" class="form-control" placeholder="ycaro@example.com">
+        </div>
 
-            <hr class="my-4">
+        <div class="col-md-6">
+            <label class="form-label"><strong>Telefone:</strong></label>
+            <input id="telefone" type="text" class="form-control" placeholder="(83) 98888-0000">
 
-            <h4 class="mb-3">Últimas doações</h4>
-            <ul>
-                <li>05/09/2025 - Hemocentro de Campina Grande</li>
-                <li>15/06/2025 - Hemocentro de João Pessoa</li>
-            </ul>
+        </div>
+    </div>
 
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <label class="form-label"><strong>CPF:</strong></label>
+            <input id="cpf" type="text" class="form-control" placeholder="000.000.000-00">
+
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label"><strong>Data de nascimento:</strong></label>
+            <input id="data" type="date" class="form-control">
+        </div>
+    </div>
+
+   
+    <hr class="my-4">
+
+    <h4 class="mb-3">Últimas doações</h4>
+
+    <div class="mb-2">
+        <input type="text" class="form-control" placeholder="05/09/2025 - Hemocentro de Campina Grande">
+    </div>
+
+    <div class="mb-2">
+        <input type="text" class="form-control" placeholder="15/06/2025 - Hemocentro de João Pessoa">
+    </div>
+
+</div>
             <hr class="my-4">
 
             <div class="d-flex gap-3">
-                <a href="#" class="btn btn-danger btn-lg w-25">Excluir Conta</a>
+                <a href="#" class="btn btn-danger btn-lg w-25">Desfazer Alteração </a>
                 <a href="#" class="btn btn-success btn-lg w-25">Editar Perfil</a>
-                <a href="doeVida.html" class="btn btn-secondary btn-lg w-25">Doe Vida!</a>
+                <a  id="botaoDoeVida"href="doeVida.html" class="btn btn-secondary btn-lg w-25">Doe Vida!</a>
             </div>
 
         </div>
 
     </div>
+
 
     <footer class="footer">
         <div class="container">
@@ -133,6 +152,8 @@
 
         <p class="copy">© 2025 – Todos direitos reservados ao HemoCard</p>
     </footer>
+
+
 </body>
 
 </html>
