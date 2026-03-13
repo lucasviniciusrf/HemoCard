@@ -19,3 +19,8 @@
 .card .btn-lg {
     padding: 0,5rem 0;
 }
+
+.ColorAlteracao { 
+    background-color: red !important;
+    bs-btn-border-color: red !important;
+}

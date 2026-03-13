@@ -44,3 +44,7 @@ inputComentario.addEventListener("keypress", function (event) {
 });
 
 renderizarComentarios();
+
+ function salvarSucesso() {
+          window.alert("Alteração salva com sucesso!");
+ }
