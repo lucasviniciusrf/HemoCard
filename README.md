@@ -1,6 +1,6 @@
 # Hemocard
 
-Landing page em React + Vite baseada no protótipo visual do projeto Hemocard.
+Landing page em React + Vite - Hemocard.
 
 ## Como rodar
 
@@ -15,10 +15,3 @@ npm run dev
 npm run build
 ```
 
-## Identidade visual
-
-- Fonte: Poppins
-- Vermelho principal: `#BB1D1D`
-- Branco: `#FFFFFF`
-- Cinza-claro: `#EDEDED`
-- Escuro de apoio: `#282828`
